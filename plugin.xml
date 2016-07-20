@@ -60,8 +60,8 @@
         
         <!-- (2/2) THESE HOOKS ARE FOR THE CORDOVA CLI -->
         <!-- execute these once -->
-        <!--     <hook type="after_plugin_install" src="src/ios/hooks/cordova/copy_watchkitfiles.js" /> -->
-        <!--     <hook type="after_plugin_install" src="src/ios/hooks/cordova/fix_watchkitapp_buildtarget.js" /> -->
+             <hook type="after_plugin_install" src="src/ios/hooks/cordova/copy_watchkitfiles.js" />
+             <hook type="after_plugin_install" src="src/ios/hooks/cordova/fix_watchkitapp_buildtarget.js" />
         <!-- execute this one every time because the user may have done updates -->
         <hook type="after_prepare" src="src/ios/hooks/cordova/copy_custom_storyboard.js" />
     </platform>
