@@ -54,8 +54,8 @@
         <source-file src="src/ios/lib/libmmwormhole-watchos.a" />
         
         <!--     (1/2) THESE HOOKS ARE FOR TELERIK APPBUILDER AND ARE ENABLED IN THE appbuilder BRANCH OF THIS REPOSITORY -->
-        <hook type="before_plugin_install" src="src/ios/hooks/ab/prerequisites.js"/>
-        <hook type="before_plugin_install" src="src/ios/hooks/ab/add-targets.js"/>
+        <!-- <hook type="before_plugin_install" src="src/ios/hooks/ab/prerequisites.js"/> -->
+        <!-- <hook type="before_plugin_install" src="src/ios/hooks/ab/add-targets.js"/> -->
         
         
         <!-- (2/2) THESE HOOKS ARE FOR THE CORDOVA CLI -->
